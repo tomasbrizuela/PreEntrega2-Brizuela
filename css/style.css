@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+header {
+    margin: 0;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010000;
+    height: 60px;
+    line-height: 60px;
+}
+
+header img {
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header span {
+    line-height: 60px;
+    font-weight: 900;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+
+}
+
+header li {
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo img {
+    line-height: 60px;
+}
+
+header nav ul li a:hover {
+    transition: 0.5s ease;
+    color: grey;
+}
+
+/* MAIN */
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagenDescripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagenDescripcion img {
+    margin: 15px;
+    width: 350px;
+    height: 250px;
+
+}
+
+.imagenDescripcion p {
+    margin: 15px;
+}
+
+.productosImg div ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.productosImg div ul li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 50px;
+}
+
+.productosImg img {
+
+    width: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
