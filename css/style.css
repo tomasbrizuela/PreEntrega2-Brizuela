@@ -32,7 +32,7 @@ h2 {
 .photo{
     max-width: 100%;
     min-height: 300px;
-    background-image: url(Images/cafe-especialidad-buenosaires-PadreCoffee.jpg);
+    background-image: url(/Images/cafe-especialidad-buenosaires-PadreCoffee.jpg);
     background-size: cover; /* Cubrir todo el contenedor */
     background-position: center; /* Centrar la imagen */
 }
@@ -44,7 +44,7 @@ h2 {
 }
 
 .text p{
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 50px 0px;
     text-align: center;
 }
 form {
@@ -54,9 +54,54 @@ form {
     justify-content: center;
 }
 
+
+/* Productos */
+
+.productosImg{
+    justify-content: center;
+}
+
+.productosImg h2{
+    margin: 40px 0px 40px 0px;
+    background-color: black;
+    color: white;
+}
+.productosImg img{
+    max-width: 300px;
+    max-height: 450px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 30px;
+}
+
+.productosImg p{
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.access{
+    justify-content: center;
+    align-items: center;
+}
+
+.access img{
+    max-width: 60%;
+    border-radius: 20px;
+    margin: 10px 0px 20px 0px;
+    box-shadow: 1px 1px 20px grey;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.image{
+    justify-content: center;
+    align-content: center;
+}
 /* Footer */
 footer {
-    margin: 0;
+    margin: 100px 0px 0px 0px;
     padding: 0;
     background-color: black;
     color: white;
